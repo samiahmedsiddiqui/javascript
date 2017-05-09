@@ -1,2 +1,4 @@
-# js-examples
-It contains the examples of JavaScript
+# JS Examples
+
+This Repo contains the examples of JS.
+1. JavaScript
