@@ -1,0 +1,11 @@
+// Catch Click in all document except the defined element in line 2
+var ignore = document.getElementById("custom_html-2");
+document.body.addEventListener("click", function(event) {
+  var target = event.target;
+  if (target === ignore || ignore.contains(target)) {
+      return;
+  }
+  if ($(".menu-login-search .header-search-form").hasClass("open")) {
+    $(".menu-login-search .header-search-form").removeClass("open")
+  }
+});
